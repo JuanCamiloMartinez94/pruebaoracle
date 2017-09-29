@@ -7,6 +7,7 @@ address varchar2(255) not null,
 phone varchar2(255) not null,
 rut varchar2(255) not null);
 
+
 CREATE SEQUENCE customer_sequence
 START WITH 1
 INCREMENT BY 1
@@ -113,4 +114,4 @@ INSERT INTO Customers VALUES (customer_sequence.nextval, 'Montana','Sosa','vulpu
 INSERT INTO Customers VALUES (customer_sequence.nextval, 'Wynne','Alford','Quisque.purus@nuncnullavulputate.org','P.O. Box 336, 8966 Ullamcorper. Rd.','065-210-0445','36619444');
 INSERT INTO Customers VALUES (customer_sequence.nextval, 'Calvin','Christian','nulla@egettincidunt.edu','P.O. Box 305, 9732 Metus Av.','014-307-3231','28931985');
 
-
+select ID,EMAIL from customers;
