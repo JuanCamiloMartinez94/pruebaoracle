@@ -115,3 +115,7 @@ INSERT INTO Customers VALUES (customer_sequence.nextval, 'Wynne','Alford','Quisq
 INSERT INTO Customers VALUES (customer_sequence.nextval, 'Calvin','Christian','nulla@egettincidunt.edu','P.O. Box 305, 9732 Metus Av.','014-307-3231','28931985');
 
 select ID,EMAIL from customers;
+
+select first_name, last_name from customers;
+
+
