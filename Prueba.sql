@@ -114,8 +114,6 @@ INSERT INTO Customers VALUES (customer_sequence.nextval, 'Montana','Sosa','vulpu
 INSERT INTO Customers VALUES (customer_sequence.nextval, 'Wynne','Alford','Quisque.purus@nuncnullavulputate.org','P.O. Box 336, 8966 Ullamcorper. Rd.','065-210-0445','36619444');
 INSERT INTO Customers VALUES (customer_sequence.nextval, 'Calvin','Christian','nulla@egettincidunt.edu','P.O. Box 305, 9732 Metus Av.','014-307-3231','28931985');
 
-select ID,EMAIL from customers;
 
-select first_name, last_name from customers;
 
 
